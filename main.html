@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주 어드레감디?</title>
+    <link rel="stylesheet" href="static/main.css">
+    <!-- <script src="jquery-3.2.1.min.js"></script> -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#recotitle').hide();
+            $('.button1').click(function () {
+                $('#recotitle').show();
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div class="mainbackground">
+
+        <!-- <img src="https://media.istockphoto.com/vectors/illustration-of-two-camellia-flowers-vector-id1197796187?k=6&m=1197796187&s=170667a&w=0&h=sc2TLwJxK2B2Zyf5k3qVx1qwhzYjErjaZsZNvPIrgLg=" style="height: 150px;"> -->
+        <div id="titleback">
+            <p id="title" class="fade-in-box">제주 어드레 감디?</p>
+            <p id="sub">* 어드레 감디? 어디로 갑니까 라는 제주 방언입니다.</p>
+        </div>
+
+        <!-- <img src="https://ac-illust.com/_next/image?url=https%3A%2F%2Fthumb.ac-illust.com%2Fce%2Fce47e5a832376307ee4b84c4726edb91_w.jpeg&w=3840&q=75" alt=""> -->
+    </div>
+    <div id="intro">
+        <p>당신에게 꼭 맞는</p>
+        <p>제주도 여행코스를</p>
+        <p>알려드립니다.</p>
+    </div>
+    <form id="chklist" name="checklist" action="recom.jsp" method="POST">
+    <div id="checklist">
+        <div id="pos">
+            <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">제주도 여행 위치</p>
+            <input type="checkbox" name="north" value="north" id="north">제주 북부</input>
+            <input type="checkbox" name="south" value="south" id="south">제주 남부</input>
+            <input type="checkbox" name="west" value="west" id="west">제주 서부</input>
+            <input type="checkbox" name="east" value="east" id="east">제주 동부</input>
+        </div>
+
+        <div id="concept">
+            <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">여행 컨셉</p>
+            <input type="checkbox" name="cafe" value="cafe">카페</input>
+            <input type="checkbox" name="nature" value="nature">자연</input>
+            <input type="checkbox" name="activity" value="activity">엑티비티</input>
+        </div>
+        <div id="day">
+            <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">여행 일수</p>
+            <input type="radio" name="day" value="one">당일치기</input>
+            <input type="radio" name="day" value="two">1박 2일</input>
+            <input type="radio" name="day" value="three">2박 3일</input>
+            <input type="radio" name="day" value="four">3박 4일</input>
+        </div>
+        <div id="btn">
+            <!-- <button class="button1" value="추천 받기" onclick="Check(this.form)"> -->
+            <input type="submit" value="추천 받기" class="button1" onclick="Check(this.form);">
+        </div>
+    </div>
+    <!-- </form> -->
+
+
+    <!-- 추천 코스 출력 -->
+    
+    <!-- <res id="recotitle" >나에게 꼭 맞는 제주 여행 코스는!</res> -->
+
+    <script>
+        var url = window.location.search;
+        document.getElementById('urlll').innerHTML = url;
+    </script>
+    <p id="urlll"></p>
+    <footer style="height:150px">
+
+    </footer>
+
+    <script src="/static/main.js"></script>
+</body>
+
+
+</html>
