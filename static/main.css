@@ -51,6 +51,13 @@
     font-family: TTJejuGamgyulR;
     text-align: center;
 }
+#p1 {
+    font-family: BBTreeGB;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom:10px;
+}
 #pos {
     padding-top:50px;
     padding-bottom: 50px;
@@ -146,11 +153,16 @@
     
   }
 
+.imgline {
+    
+    width: 5%;
+    padding-top: 40px;
+}
 
   /* reco.html */
 #recotitle {
     font-size: 80px;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 30px;
     color: #000;
     /* color:rgb(255, 204, 95); */
@@ -164,4 +176,14 @@
     font-family: UhBeeMiwan;
     text-align: center;
     color: rgb(102, 102, 102);
+}
+
+.coursebox {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-family: UhBeeMiwan;
+    text-align: center;
+    
+    align-content: center;
 }
