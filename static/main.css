@@ -150,10 +150,18 @@
   /* reco.html */
 #recotitle {
     font-size: 80px;
-    margin:0px;
+    padding-top: 200px;
+    padding-bottom: 30px;
     color: #000;
     /* color:rgb(255, 204, 95); */
     font-family: UhBeeMiwan;
     position:relative;
     text-align: center;
+}
+
+.tagbox {
+    font-size: 40px;
+    font-family: UhBeeMiwan;
+    text-align: center;
+    color: rgb(102, 102, 102);
 }
