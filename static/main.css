@@ -181,9 +181,15 @@
 .coursebox {
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 30px;
-    font-family: UhBeeMiwan;
+    font-size: 34px;
+    font-family: TTJejuGamgyulR;
     text-align: center;
-    
     align-content: center;
+    
+
+}
+
+.mapbox {
+    align-content: center;
+    text-align: center;
 }
