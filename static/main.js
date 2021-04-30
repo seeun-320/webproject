@@ -69,7 +69,7 @@ function tagprint() {
   day();
 
   var box = document.getElementById("target");
-  if (hashtag === "") {
+  if (hashtag === "당일치기") {
     alert("체크하세요 :)")
   }
   else {
