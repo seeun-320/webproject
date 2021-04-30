@@ -14,7 +14,7 @@
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
                 event.preventDefault();
-                $('html,body').animate({ scrollTop:$(this.hash).offset().top }, 1000);
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
             });
         });
     </script>
@@ -38,6 +38,7 @@
     <div id="checklist">
         <div id="pos">
             <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">제주도 여행 위치</p>
+            <p id="p1">[최소 1개 선택]</p>
             <input type="checkbox" name="north" value="north" id="north">제주 북부</input>
             <input type="checkbox" name="south" value="south" id="south">제주 남부</input>
             <input type="checkbox" name="west" value="west" id="west">제주 서부</input>
@@ -46,13 +47,14 @@
 
         <div id="concept">
             <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">여행 컨셉</p>
+            <p id="p1">[최소 1개 선택]</p>
             <input type="checkbox" name="cafe" value="cafe" id="cafe">카페</input>
             <input type="checkbox" name="nature" value="nature" id="nature">자연</input>
             <input type="checkbox" name="activity" value="activity" id="activity">엑티비티</input>
         </div>
         <div id="day">
             <p style="font-size: 40px;margin-top:0px;margin-bottom: 10px;">여행 기간</p>
-            <input type="radio" name="day" value="one" id="one">당일치기</input>
+            <input type="radio" name="day" value="one" id="one" checked>당일치기</input>
             <input type="radio" name="day" value="two" id="two"> 1박 2일</input>
             <input type="radio" name="day" value="three" id="three">2박 3일</input>
             <input type="radio" name="day" value="four" id="four">3박 4일</input>
@@ -65,18 +67,50 @@
         </div>
     </div>
     <!-- </form> -->
-
-
+    <div style="text-align: center;">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+        <img src="https://lh3.googleusercontent.com/proxy/RHUOFsz7nWBO40AjnpSNAxAzGmfHPDX7MJa3294AJYC5-bkyjza61tgHnIUgls7iHcX2oytzi6jXj4cKGX1Bun8ae1VRtfg1408M1SQynE1v-1Nfr_C-Fi4fhLiz3I-AGiNAV2H5BWU5q-_KHiqsOpwZ"
+            class="imgline">
+        <img src="https://data.ac-illust.com/data/thumbnails/76/769fe50373423fb3ea4cbf99bf680675_t.jpeg"
+            class="imgline">
+    </div>
     <!-- 추천 코스 출력 -->
 
     <div id="recotitle"></div>
     <div id="target" class="tagbox">
-
     </div>
 
-    <footer style="height:150px">
-
-    </footer>
+    <div id="course" class="coursebox"></div>
+    <div id="map" class="mapbox"></div>
 
     <script src="/static/main.js"></script>
 </body>
